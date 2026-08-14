@@ -1,3 +1,10 @@
+name: "网络检测面板"
+desc: "Stash 网络状态、节点健康、DNS、IPv6、流媒体及常用服务检测"
+
+script-providers: #!replace
+  tile-international:
+    interval: 86400
+    payload: |
 script-providers: #!replace
 
   tile-international:
